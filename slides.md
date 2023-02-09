@@ -142,12 +142,11 @@ li {
 </style>
 
 <!--
-  - Lottieを使うにはAfterEffectでアニメーションを作成し、ZXP installer,Bodymovinを使ってJSONを出力することが必須になる
+- Lottieを使うにはAfterEffectでアニメーションを作成し、ZXP installer,Bodymovinを使ってJSONを出力することが必須になる
   - AfterEffectで作ったアニメーションをBodymovin等のサードパーティ製のツールを通す必要があるので、作ったアニメーションがそのまま確実に動くという保証がない
   - LottieLabというAEを使わなくても作れるようにするツールが作られているがまだ開発中とのこと https://lottielab.com/
   - AfterEffectは動画でしかないので、Lottieのコード上であればホバーとかスクロールに合わせた簡単なインタラクティブな動きを作ることはできるが、AE上でそのテスト等をすることができない
 -->
-
 
 ---
 
@@ -527,5 +526,3 @@ h1 {
 }
 
 </style>
-
-
