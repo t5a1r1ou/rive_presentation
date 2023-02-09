@@ -143,8 +143,8 @@ li {
 
 <!--
   - Lottieを使うにはAfterEffectでアニメーションを作成し、ZXP installer,Bodymovinを使ってJSONを出力することが必須になる
-  - LottieLabというAEを使わなくても作れるようにするツールが作られているがまだ開発中とのこと https://lottielab.com/
   - AfterEffectで作ったアニメーションをBodymovin等のサードパーティ製のツールを通す必要があるので、作ったアニメーションがそのまま確実に動くという保証がない
+  - LottieLabというAEを使わなくても作れるようにするツールが作られているがまだ開発中とのこと https://lottielab.com/
   - AfterEffectは動画でしかないので、Lottieのコード上であればホバーとかスクロールに合わせた簡単なインタラクティブな動きを作ることはできるが、AE上でそのテスト等をすることができない
 -->
 
@@ -157,7 +157,7 @@ li {
 
 <ul>
   <li class="text-xl font-bold text-indigo-800" v-click>ブラウザで動くモーショングラフィックツール</li>
-  <li class="text-xl font-bold text-indigo-800" v-click>MacOSアプリが最近リリース（Widowsは開発中）</li>
+  <li class="text-xl font-bold text-indigo-800" v-click>MacOSアプリが最近リリース（Windowsは開発中）</li>
   <li class="text-xl font-bold text-indigo-800" v-click>デザインの作成からアニメーションの作成、ファイルの書き出しまで、RIVEのみで完結することができる</li>
   <li class="text-xl font-bold text-indigo-800" v-click>インタラクティブな動きをRIVE上で作成することができる</li>
 </ul>
@@ -451,7 +451,16 @@ li {
 
 ---
 
-# サンプルのご紹介
+# RIVEのここが辛い
+
+<p></p>
+
+<ul>
+  <li class="text-xl font-bold text-indigo-800" v-click>ドキュメントが英語</li>
+  <li class="text-xl font-bold text-indigo-800" v-click>Lottieに比べて情報が少ない</li>
+  <li class="text-xl font-bold text-indigo-800" v-click>無料枠3つ...(無料でつかわせてもらえるだけでありがたい...)</li>
+</ul>
+
 
 <style>
 h1 {
@@ -471,6 +480,52 @@ ul {
 li {
   margin-bottom: 2rem;
 }
+</style>
+
+<!--
+  - ドキュメントが英語なのはLottieもだけど、、、
+  - Lottieに比べて情報が少ないいい
+  - 無料枠3つ 無駄にアカウント2つ作りました
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# サンプルのご紹介
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+</style>
+
+---
+layout: center
+class: text-center
+---
+
+# ご清聴ありがとうございました
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 </style>
 
 
